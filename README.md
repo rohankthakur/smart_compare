@@ -1,0 +1,1 @@
+# This SAS macro builds on PROC COMPARE to reduce columns, rows etc and summarise changes per key item.
