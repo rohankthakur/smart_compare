@@ -9,6 +9,7 @@
               excl_cols=('_OBS_' '_TYPE_' 'COMP_TIMESTAMP' 'OLD_LATEST_NEW_TERMIN')
        );
        */
+       /* Rohan Kumar Thakur, https://github.com/rohankthakur */
        *;%macro a;%mend a;
        %let rc1=%sysfunc(open(&libref1..&dsn1,i));
        %let nobs1=%sysfunc(attrn(&rc1,NOBS));
